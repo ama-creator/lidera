@@ -1,0 +1,16 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin bluer {
+    content: '';
+    position: absolute;
+    left: 50%;
+    filter: blur(60px);
+    z-index: -1;
+    height: 90%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
